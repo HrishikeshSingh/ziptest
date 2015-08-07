@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BizTalkEnvironment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ActiveDirectoryEndpoint>https://login.windows.net/common</ActiveDirectoryEndpoint>
+  <Resource>https://portal.biztalk.windows.net</Resource>
+  <ClientId>76d39bb3-7aae-4b0e-9656-397944c44022</ClientId>
+  <BearerScheme>Bearer</BearerScheme>
+  <RedirectUri>https://portalclient.biztalk-icbcs2.windows.net</RedirectUri>
+
+  <PortalUri>https://portal.biztalk.windows.net</PortalUri>
+  
+  <SkipCertificateValidation>false</SkipCertificateValidation>
+</BizTalkEnvironment>
