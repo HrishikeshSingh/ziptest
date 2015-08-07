@@ -1,0 +1,44 @@
+2015-02-25T10:24:24  PID[3076] Verbose     SnapshotHelper::RestoreSnapshotInternal SUCCESS - File.Copy
+2015-02-25T10:24:24  PID[3076] Verbose     SnapshotHelper::RestoreSnapshotInternal SUCCESS - process
+2015-02-25T10:24:26  PID[3076] Verbose     Start: GetTokenResultAsync
+2015-02-25T10:24:26  PID[3076] Verbose     Start: EmaUserInfo.GetRawTokenAsync(quickbooks)
+2015-02-25T10:24:26  PID[3076] Verbose     System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.Integration.Common.OAuth1Controller.GenerateSignatureBase(HttpMethod requestMethod, Uri baseUrl, String nonce, String timestamp, Dictionary`2 requestParameters) in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\Integration.Common\OAuth1Controller.cs:line 165
+   at Microsoft.Integration.Common.OAuth1Controller.<GenerateSignature>d__17.MoveNext() in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\Integration.Common\OAuth1Controller.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.Integration.Common.OAuth1Controller.<AddOAuthHeader>d__d.MoveNext() in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\Integration.Common\OAuth1Controller.cs:line 70
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.Azure.Biztalk.Connectors.QuickBooksConnector.QuickBooksController.<GetHelper>d__66.MoveNext() in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\QuickBooksConnector\Controllers\QuickBooksController.cs:line 698
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.Azure.Biztalk.Connectors.QuickBooksConnector.QuickBooksController.<ReadAccount>d__0.MoveNext() in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\QuickBooksConnector\Controllers\QuickBooksController.cs:line 62
+2015-02-25T10:25:09  PID[3076] Verbose     Start: GetTokenResultAsync
+2015-02-25T10:25:09  PID[3076] Verbose     Start: EmaUserInfo.GetRawTokenAsync(quickbooks)
+2015-02-25T10:25:09  PID[3076] Verbose     System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Microsoft.Integration.Common.OAuth1Controller.GenerateSignatureBase(HttpMethod requestMethod, Uri baseUrl, String nonce, String timestamp, Dictionary`2 requestParameters) in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\Integration.Common\OAuth1Controller.cs:line 165
+   at Microsoft.Integration.Common.OAuth1Controller.<GenerateSignature>d__17.MoveNext() in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\Integration.Common\OAuth1Controller.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.Integration.Common.OAuth1Controller.<AddOAuthHeader>d__d.MoveNext() in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\Integration.Common\OAuth1Controller.cs:line 70
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.Azure.Biztalk.Connectors.QuickBooksConnector.QuickBooksController.<GetHelper>d__66.MoveNext() in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\QuickBooksConnector\Controllers\QuickBooksController.cs:line 698
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.Azure.Biztalk.Connectors.QuickBooksConnector.QuickBooksController.<ReadAccount>d__0.MoveNext() in x:\bt\412462\AAPT\EMA\Connectors\SAAS\src\source\QuickBooksConnector\Controllers\QuickBooksController.cs:line 62
